@@ -1,0 +1,39 @@
+section {
+    margin-bottom: 2rem;
+}
+
+h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+.nav-container {
+    top: 1rem;
+    max-height: calc(100vh - 2rem);
+    overflow-y: auto;
+}
+
+.nav-container ul {
+    list-style: none;
+}
+
+.nav-container a {
+    display: block;
+    /* font-weight: bold; */
+    padding: .25rem 1rem;
+    margin-bottom: .5rem;
+    /* text-underline-offset: 0.25em; */
+    text-decoration: none;
+    border-left: 2px solid transparent;
+    color: inherit;
+}
+
+.nav-container a.active {
+    color: var(--bs-primary);
+    border-left-color: var(--bs-primary);
+    border-left-width: 4px;
+}
+
+.nav-container a:hover {
+    color: var(--bs-primary);
+    border-left-color: transparent;
+}
