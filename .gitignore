@@ -1,0 +1,9 @@
+# Claude
+.claude/
+CLAUDE.md
+
+# Dependencies
+node_modules/
+
+# macOS
+.DS_Store
