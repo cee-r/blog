@@ -2,6 +2,10 @@ section {
     margin-bottom: 2rem;
 }
 
+#information-gathering {
+    scroll-margin-top: 2rem;
+}
+
 h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
